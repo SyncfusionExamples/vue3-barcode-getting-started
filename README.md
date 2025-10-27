@@ -8,12 +8,6 @@ The repository contains a minimal Vue 3 app (created with Vue CLI) that register
 - QRCodeGeneratorComponent (`<ejs-qrcodegenerator>`)
 - DataMatrixGeneratorComponent (`<ejs-datamatrixgenerator>`)
 
-Files of interest
-- `src/App.vue` — the main component demonstrating the three generators and importing the required Syncfusion CSS files.
-- `src/main.js` — mounts the Vue app.
-- `src/components/HelloWorld.vue` — the default example component included by the Vue CLI.
-- `public/index.html` — the app entry HTML used by the dev server.
-
 ## Prerequisites
 
 [System requirements for Syncfusion® Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements/)
@@ -45,8 +39,7 @@ Initiating a new project prompts us to select the type of project to be used for
 
 ## Adding Syncfusion® Barcode package in the application
 
-Syncfusion® Vue packages are maintained in the [`npmjs.com`](https://www.npmjs.com/~syncfusionorg) registry.
-In this example, the Barcode component will be used. Use the following command to install it.
+Use the following command to install it.
 
 ```bash
 npm install @syncfusion/ej2-vue-barcode-generator
@@ -65,10 +58,6 @@ Import the necessary css styles for the Barcode component along with dependency 
 ```
 
 - The example sets some simple properties (width, height, value, type, mode, displayText) and renders each generator with the corresponding tag:
-
-```html
-<ejs-barcodegenerator :width="width" :height="height" :type="type" :value="value" :mode="mode" :displayText="displaytext" />
-```
 
 ## Running the application
 
