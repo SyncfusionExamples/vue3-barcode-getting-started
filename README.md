@@ -45,20 +45,6 @@ Use the following command to install it.
 npm install @syncfusion/ej2-vue-barcode-generator
 ```
 
-## Adding CSS reference for Syncfusion® Vue Barcode component
-
-Import the necessary css styles for the Barcode component along with dependency styles in the `<style>` section of the `src/App.vue` file as follows.
-
-```
-<style>
-  @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
-  @import "../node_modules/@syncfusion/ej2-icons/styles/material.css";
-  @import "../node_modules/@syncfusion/ej2-vue-barcode-generator/styles/material.css";
-</style>
-```
-
-- The example sets some simple properties (width, height, value, type, mode, displayText) and renders each generator with the corresponding tag:
-
 ## Running the application
 
 Run the application using the following command.
